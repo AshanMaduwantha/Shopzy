@@ -1,11 +1,11 @@
 import React from 'react'
-import './NewCollection.css'
+import './NewCollections.css'
 import new_collection from '../Assets/new_collections'
 import Item from '../Item/Item'
 
 export const NewCollection = () => {
   return (
-    <div className='new-collection'>
+    <div className='new-collections'>
         <h1>NEW COLLECTION</h1>
         <hr/>
         <div className="collections">
