@@ -86,6 +86,15 @@ app.post("/removeproduct", async (req, res) => {
   });
 
 
+// endpoint for getting all products data
+app.get("/allproducts", async (req, res) => {
+    let products = await Product.find({});
+    console.log("All Products");
+    res.send(products);
+});
+
+
+
 app.listen(port, (error)=>{
     if(!error){
         console.log("Sever Running on Port "+port);
