@@ -24,6 +24,7 @@ const AddProduct = () => {
   const Add_Product = async ()=>{
 
     console.log(productDetails);
+
   }
 
   return (
